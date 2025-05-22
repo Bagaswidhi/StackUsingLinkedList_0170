@@ -22,4 +22,14 @@ class Stack{
     Stack(){
         top = NULL; // initializing the stack with a null top pointer   
     }
+
+    // Push operation: insert an element onto the top of the stack
+    int push( int value) {
+        Node* newNode = new Node(); // 1. Allocate memory for the new node
+        newNode->data = value; // 2. Assign the value to the new node
+        newNode->next = top; // 3. Set the next pointer
+        top = newNode; // 4. Update the top pointer to the new node
+        cout << " Push Value: " << value << endl; // 5. Print the pushed value
+        return value;
+    }
 };
