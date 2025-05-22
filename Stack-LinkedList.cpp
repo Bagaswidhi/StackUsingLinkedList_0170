@@ -63,3 +63,7 @@ class Stack{
         return top == NULL; // Return true if the top pointer is null, indicatiing an empty stack
     }
 };
+
+int main(){
+    Stack stack;
+}
