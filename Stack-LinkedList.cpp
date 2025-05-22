@@ -13,3 +13,9 @@ class Node {
         }
 };
 
+// Stack class
+class Stack{
+    private:
+    Node *top; // Pointer to the top of the Stack
+
+};
